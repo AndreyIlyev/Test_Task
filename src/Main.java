@@ -22,9 +22,9 @@ public class Main {
         int[] numbers = new int[]{
                 3, 5, 9, 21, 34, 30, 60, 69, 45, 48, 47, 73
         };
-        for (int i = 0; i < numbers.length; i++)
-            if (numbers[i] % 3 == 0)
-                System.out.println(numbers[i]);
+        for (int j : numbers)
+            if (j % 3 == 0)
+                System.out.println(j);
     }
 
 }
