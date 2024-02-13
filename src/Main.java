@@ -9,7 +9,6 @@ public class Main {
             System.out.println("Привет!");
 
 
-
         var example = "Вячеслав";
         System.out.println("Введите имя ");
         Scanner input = new Scanner(System.in);
@@ -18,7 +17,6 @@ public class Main {
             System.out.println("Привет " + name);
         else
             System.out.println("Нет такого имени");
-
 
 
         int[] numbers = new int[]{
