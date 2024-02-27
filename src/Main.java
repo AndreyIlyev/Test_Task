@@ -2,9 +2,10 @@ import java.util.Scanner;
 
 public class Main {
     public static void main(String[] args) {
+
         System.out.println("Введите число ");
         Scanner scanner = new Scanner(System.in);
-        int number = scanner.nextInt();
+        double number = scanner.nextInt();
         if (number == 7)
             System.out.println("Привет!");
 
@@ -28,3 +29,4 @@ public class Main {
     }
 
 }
+
